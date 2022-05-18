@@ -5,7 +5,6 @@ const chatOutput = document.getElementById('chat-output');
 const usernameInput = document.getElementById('username-input')
 const messageInput = document.getElementById('message-input');
 
-
 sendButton.addEventListener('click', () => {
     console.log('clicked');
     socket.emit('chatData', {
