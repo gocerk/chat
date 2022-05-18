@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus, button:focus {
+    outline: 0;
+}
+
+.chat-wrap {
+    max-width: 50%;
+    margin: 5% auto;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.chat-window {
+    height: 30%;
+    overflow-y: auto;
+    border-bottom: 1px solid black;
+}
+
+#output p {
+    font-size: 15px;
+    padding: 12px;
+}
+
+#output p:nth-child(even) {
+    background-color: gray;
+}
+
+#output strong {
+    color: brown;
+}
+
+input {
+    margin-top: 2%;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+button {
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 15px;    
+    margin-top: 3%;
+}
