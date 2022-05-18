@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:3000')
+const socket = io.connect();
 
 const sendButton = document.getElementById('send-button');
 const chatOutput = document.getElementById('chat-output');
